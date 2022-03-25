@@ -1,0 +1,34 @@
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid hsla(239, 82%, 65%, 1); /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.Toastify__close-button {
+  display: none;
+}
+.modal {
+  transition: background 2s;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal:hover {
+  background: hsla(284, 62%, 2%, 1);
+}

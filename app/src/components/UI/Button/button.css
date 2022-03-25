@@ -1,0 +1,27 @@
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px;
+  width: 320px;
+  border-radius: 8px;
+  background: hsla(239, 82%, 65%, 1);
+  color: hsla(0, 0%, 97%, 1);
+  border: 0;
+  cursor: pointer;
+}
+button:hover {
+  background: hsla(239, 82%, 65%, 0.9);
+}
+button svg {
+  color: hsla(0, 0%, 97%, 1);
+  font-size: 22px;
+}
+.txtButton {
+  margin-left: 5.22px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}

@@ -1,0 +1,9 @@
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsla(120, 39%, 54%, 1);
+}

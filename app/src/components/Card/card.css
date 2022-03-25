@@ -1,0 +1,121 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+.card {
+  width: 497px;
+  height: 405px;
+  border-radius: 21px;
+  box-shadow: 0px 11px 14px -11px hsla(0, 0%, 0%, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  background: hsla(0, 0%, 100%, 1);
+  padding: 82px 89px;
+  box-sizing: border-box;
+}
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+.card-header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+}
+.card-header span {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+.card-body {
+  margin: 22px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+}
+.card-body .error-message {
+  position: absolute;
+  color: hsla(349, 78%, 58%, 1);
+  right: 5px;
+  top: -18px;
+}
+.card-body input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 12px 13px 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid hsla(240, 7%, 68%, 1);
+  margin-bottom: 10px;
+  line-height: 19px;
+  font-size: 16px;
+}
+.card-body input:focus-visible {
+  outline: none !important;
+}
+.card-body input::placeholder {
+  font-weight: 400;
+  color: hsla(240, 7%, 68%, 1);
+}
+.card-body p {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+.card-body p svg {
+  color: hsla(349, 78%, 58%, 1);
+  margin-right: 4px;
+  font-size: 14px;
+}
+.card-footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.success .card-header {
+  align-items: center;
+}
+.success .card-header svg {
+  font-size: 36px;
+  color: hsla(120, 39%, 54%, 1);
+}
+.success .card-header h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+.success .card-body p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success .card-body p span {
+  margin-left: 5px;
+}
